@@ -1,0 +1,75 @@
+:root {
+  --base-color: #BF5B94;
+  --default-text-color: #555;
+  --gray-text-color: #999;
+  --link-color: #5B8DBF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  line-height: 1;
+}
+
+::after, ::before {
+  display: block;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 64px;
+  font-family: "Century Gothic", CenturyGothic, sans-serif;
+  font-size: 14px;
+  color: var(--default-text-color);
+
+  @media (max-width: 660px) {
+    padding: 0 32px;
+  }
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--base-color);
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--gray-text-color);
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--base-color);
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+a {
+  display: inline-block;
+  color: var(--link-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+small {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--gray-text-color);
+}
