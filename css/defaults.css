@@ -31,6 +31,7 @@ body {
 
   @media (max-width: 660px) {
     padding: 0 32px;
+    max-width: 100%;
   }
 }
 
@@ -77,5 +78,14 @@ small {
 @media print {
   *, *:before, *:after {
     background: transparent !important;
+  }
+
+  body {
+    height: 11in;
+    width: 8.5in;
+  }
+
+  @page {
+    margin: 1cm !important;
   }
 }
