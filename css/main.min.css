@@ -46,7 +46,8 @@ body {
 @media (max-width: 660px) {
 
     body {
-        padding: 0 32px
+        padding: 0 32px;
+        max-width: 100%
     }
 }
 
@@ -93,6 +94,15 @@ small {
 @media print {
   *, *:before, *:after {
     background: transparent !important;
+  }
+
+  body {
+    height: 11in;
+    width: 8.5in;
+  }
+
+  @page {
+    margin: 1cm !important;
   }
 }
 
@@ -161,7 +171,7 @@ small {
     justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
     .header__content h1 {
         font-size: 32px;
@@ -221,7 +231,7 @@ small {
     background-color: #BF5B94;
 }
 
-@media only screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
 
     .header {
         flex-flow: column nowrap;
@@ -256,7 +266,7 @@ small {
   padding-bottom: 64px;
 }
 
-@media only screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
 
     .main {
         padding-bottom: 32px
@@ -275,7 +285,7 @@ small {
   margin: 0 0 16px 48px;
 }
 
-@media only screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
 
     .cv-block {
         margin-left: 0;
@@ -307,7 +317,7 @@ small {
     line-height: 32px;
 }
 
-@media only screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
 
     .cv-block__header {
         display: inline-block;
@@ -415,7 +425,7 @@ small {
     }
 }
 
-@media only screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
 
     .cv-block__list {
         flex-flow: column nowrap
