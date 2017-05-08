@@ -90,6 +90,12 @@ small {
   color: #999;
 }
 
+@media print {
+  *, *:before, *:after {
+    background: transparent !important;
+  }
+}
+
 @font-face {
     font-family: "icons-font";
     src: url('../fonts/icons-font/icons-font.eot');

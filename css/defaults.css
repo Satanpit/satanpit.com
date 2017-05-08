@@ -73,3 +73,9 @@ small {
   font-weight: 400;
   color: var(--gray-text-color);
 }
+
+@media print {
+  *, *:before, *:after {
+    background: transparent !important;
+  }
+}
