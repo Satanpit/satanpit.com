@@ -285,6 +285,10 @@ small {
   margin: 0 0 16px 48px;
 }
 
+.cv-block_page_start {
+    page-break-before: always;
+}
+
 @media screen and (max-width: 660px) {
 
     .cv-block {
