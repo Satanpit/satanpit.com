@@ -2,6 +2,7 @@
     font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     src: url('../fonts/CenturyGothicRegular/CenturyGothic.eot') format('eot'),
     url('../fonts/CenturyGothicRegular/CenturyGothic.woff') format('woff'),
     url('../fonts/CenturyGothicRegular/CenturyGothic.ttf')  format('truetype'),
@@ -12,6 +13,7 @@
     font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 700;
+    font-display: swap;
     src: url('../fonts/CenturyGothicBold/CenturyGothic-Bold.eot') format('eot'),
     url('../fonts/CenturyGothicBold/CenturyGothic-Bold.woff') format('woff'),
     url('../fonts/CenturyGothicBold/CenturyGothic-Bold.ttf')  format('truetype'),
