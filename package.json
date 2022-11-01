@@ -9,7 +9,7 @@
   "author": "Alex Khyrenko",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-dest": "^0.2.3",
     "gulp-iconfont": "^8.0.1",
     "gulp-iconfont-css": "^2.1.0",
